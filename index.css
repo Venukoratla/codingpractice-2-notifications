@@ -1,0 +1,79 @@
+/* Write your code here. */
+.information-container {
+  background-color: #0b69ff;
+  font-family: Bree serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  color: #ffffff;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.image {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.success-container {
+  border-radius: 10px;
+  background-color: #2dca73;
+  font-family: Bree serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  color: #ffffff;
+
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+.bg-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.warning {
+  border-radius: 10px;
+  background-color: #ffb800;
+  font-family: Bree serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  color: #ffffff;
+
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+
+.error {
+  border-radius: 10px;
+  background-color: #ff0b37;
+  font-family: Bree serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  color: #ffffff;
+
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+.heading {
+  color: #0f172a;
+  font-family: Roboto;
+  font-weight: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-color {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
